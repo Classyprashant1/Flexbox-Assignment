@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexboxassignment</title>
+    <link rel="stylesheet" href="./flexbox.css">
+</head>
+<body>
+    <h1>All Felxbox Concepts - Basic HTML Demo</h1>
+    <section>
+        <h2>1. Display : Flex</h2>
+        <p>This enables Flexbox layout on a container.</p>
+        <div class="flexboxitem">
+            <div class="item">item1</div>
+            <div class="item">item2</div>
+            <div class="item">item3</div>
+        </div>
+    </section>
+    <section>
+        <h2>2. Flex Direction</h2>
+        <p>Direction of the main axis (row by default).</p>
+        <div class="flexcolumn">
+            <div class="item">column1</div>
+            <div class="item">column2</div>
+            <div class="item">column3</div>
+        </div>
+    </section>
+    <section>
+        <h2>3. Justify Content</h2>
+        <p>Controls alignment on the main axis (Horizontal if flex direction is row).</p>
+        <div class="flexjustifycenter">
+            <div class="item">Center</div>
+            <div class="item">Aligned</div>
+        </div>
+        <div class="justifywithspace">
+            <div class="item">Start</div>
+            <div class="item">End</div>
+        </div>
+    </section>
+    <section>
+        <h2>4. Align Items</h2>
+        <p>Controls alignmment along the cross axis (vertical if felx direction is row).</p>
+        <div class="flexalign">
+            <div class="item">Short</div>
+            <div class="item" style="height: 100px;">Tall</div>
+            <div class="item">Short</div>
+        </div>
+    </section>
+    <section>
+        <h2>5. Flex Wrap</h2>
+        <p>Allow items to wrap into multiple lines.</p>
+        <div class="flexwrap">
+            <div class="item" style="width: 200px;">Box1</div>
+            <div class="item" style="width: 200px;">Box2</div>
+            <div class="item" style="width: 200px;">Box3</div>
+            <div class="item" style="width: 200px;">Box4</div>
+            <div class="item" style="width: 200px;">Box5</div>
+            <div class="item" style="width: 200px;">Box6</div>
+            <div class="item" style="width: 200px;">Box7</div>
+        </div>
+    </section>
+    <section>
+        <h2>6. Gap</h2>
+        <p>Spcae between items (row and column gap).</p>
+        <div class="flexgap">
+            <div class="item">A</div>
+            <div class="item">B</div>
+            <div class="item">C</div>
+        </div>
+    </section>
+    <section>
+        <h2>7. Flex Grow</h2>
+        <p>Defines how much a flex item grow relative to others.</p>
+        <div class="flexgrow">
+            <div class="item">Grow1</div>
+            <div class="item">Grow2</div>
+            <div class="item">No Grow</div>
+        </div>
+    </section>
+    <section>
+        <h2>8. Flex Shrink</h2>
+        <p>Defines how a flex item will shrink if necessary.</p>
+        <div class="flexshrink">
+            <div class="item shrink">Shrink</div>
+            <div class="item">No Shrink</div>
+        </div>
+    </section>
+    <section>
+        <h2>9. Flex Basis</h2>
+        <p>Select the initail size of a flex item before space is distributed.</p>
+        <div class="flexbasis">
+            <div class="item basis">150px basis</div>
+            <div class="item">Auto</div>
+        </div>
+    </section>
+    <section>
+        <h2>10. Order</h2>
+        <p>Controls the order in which item appear(visually).</p>
+        <div class="flexorder">
+            <div class="item order-1">Order1</div>
+            <div class="item order-2">Order2</div>
+            <div class="item">Deafult</div>
+        </div>
+    </section>
+    <section>
+        <h2>11. Align Self</h2>
+        <p>Overrides align items for individual items.</p>
+        <div class="flexselfalign" style="height: 150px;">
+            <div class="item align-self-start">Top</div>
+            <div class="item align-self-center">center</div>
+            <div class="item align-self-end">End</div>
+        </div>
+    </section>
+</body>
+</html>

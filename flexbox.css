@@ -1,0 +1,82 @@
+h1{
+    padding: 20px;
+    margin: 30px;
+    text-align: center;
+}
+section{
+    padding: 10px;
+}
+h2{
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
+}
+section > p{
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
+}
+div{
+    display: flex;
+    border: 1px solid lightgrey;
+    gap: 10px;
+    padding: 10px;
+}
+.item{
+    background-color: lightseagreen;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.flexcolumn{
+    display: flex;
+    flex-direction: column;
+}
+.flexjustifycenter{
+    display: flex;
+    justify-content: center;
+}
+.justifywithspace{
+    display: flex;
+    justify-content: space-between;
+}
+.flexalign{
+    display: flex;
+    align-items: center;
+}
+.flexwrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.flexgap{
+    display: flex;
+    gap: 100px;
+}
+.flexgrow > :nth-child(2){
+    flex-grow: 2;
+}
+.flexgrow > :nth-child(1){
+    flex-grow: 1;
+}
+.flexshrink > :nth-child(1){
+    flex-shrink: 0.5;
+}
+
+.flexbasis :nth-child(1){
+    flex-basis: 150px;
+}
+.order-1{
+    order: 1;
+}
+.order-2{
+    order: 2;
+}
+.align-self-start{
+    align-self: flex-start;
+}
+.align-self-end{
+    align-self: flex-end;
+}
+.align-self-center{
+    align-self: center;
+}
